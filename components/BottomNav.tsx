@@ -17,7 +17,7 @@ const BottomNav = () => {
         tw`bg-white pb-[2.5rem] absolute bottom-0 w-full border-t-[1px] border-[#E2E2E2]`,
       ]}
     >
-      <View style={[tw`p-4 flex-row justify-between`]}>
+      <View style={[tw`px-5 py-3 flex-row justify-between`]}>
         <TouchableOpacity style={[tw`flex gap-[0.5rem] items-center`]}>
           <SvgXml xml={homeSvgXml} width={30} height={30} />
           <Text style={[tw`text-gray-500`]}>Home</Text>
